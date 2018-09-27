@@ -37,6 +37,7 @@
     margin: 0 auto;
     height: 10%;
     font-size: 20px;
+    background-color: black;
   }
   
   ul li {
@@ -103,14 +104,13 @@
     
   .parallax { 
     /* The image used */
-    background-image: url("https://pbp1995.github.io/sargam_site/images/nagada.jpg");
+    background-image: url("https://pbp1995.github.io/sargam_site/images/blurred.jpg");
 
     /* Full height */
     height: 512px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -151,9 +151,9 @@
 
 
     
-  .parallax { 
+  .parallax1 { 
     /* The image used */
-    background-image: url("https://pbp1995.github.io/sargam_site/images/nagada.jpg");
+    background-image: url("https://pbp1995.github.io/sargam_site/images/6141473_orig.jpg");
 
     /* Full height */
     height: 512px; 
@@ -164,19 +164,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax2 { 
+  /* The image used */
+  background-image: url("https://pbp1995.github.io/sargam_site/images/raas_picture.jpg");
+
+  /* Full height */
+  height: 512px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   .row{
     width: 100%;
   }
 
-  .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-  }
-  .col-lg {
+  .col-sm {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -184,6 +191,9 @@
     background-color: rgba(102, 102, 102, 0.856);
     opacity: 0.99;
     width: 100%;
+    position: relative;
+    left: 15px;
+    top: 110px;
   }
 
   h1 {
@@ -191,17 +201,19 @@
     font-size: 70px;
   }
 
-  .btn-1 {
-    position: absolute;
-    bottom: -50;
+  .button {
+    
+    left: 40px;
+    top: 200px;
     margin: 0;
     background: linear-gradient(to bottom right, #0090AD, #1AB467);
     width: 94%;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
+    border: 2px solid #008CBA;
   }
 
-  .btn-1:hover {
+  .button:hover {
     box-shadow: 0 20px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
@@ -218,8 +230,18 @@
   .text{
     text-align: center;
     color: rgb(230, 221, 221);
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 15px;
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .text1{
+    text-align: center;
+    color: rgb(230, 221, 221);
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
   }
