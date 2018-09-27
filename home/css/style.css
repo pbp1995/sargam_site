@@ -29,7 +29,7 @@
 
   body {
     font: 300 100% 'Roboto';
-    background-color: black;
+    background-color: #2294B5;
   }
   
   .topnav {
@@ -37,7 +37,7 @@
     margin: 0 auto;
     height: 10%;
     font-size: 20px;
-    background-color: black;
+    background-color:#008CBA;
   }
   
   ul li {
